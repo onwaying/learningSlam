@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libch3.a CMakeFiles/ch3.dir/hello.cpp.o
+/usr/bin/ranlib ../../lib/libch3.a

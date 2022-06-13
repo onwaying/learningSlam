@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/ch5.dir/example/ch5.cpp.o -o ../bin/ch5  -Wl,-rpath,/home/tianbot/leaningSlam/learningCmake/ch5/lib ../lib/libch4.so 
