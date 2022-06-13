@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named c++11Hello
+# Target rules for targets named ch1
 
 # Build rule for target.
-c++11Hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c++11Hello
-.PHONY : c++11Hello
+ch1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch1
+.PHONY : ch1
 
 # fast build rule for target.
-c++11Hello/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++11Hello.dir/build.make CMakeFiles/c++11Hello.dir/build
-.PHONY : c++11Hello/fast
+ch1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1.dir/build.make CMakeFiles/ch1.dir/build
+.PHONY : ch1/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++11Hello.dir/build.make CMakeFiles/c++11Hello.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1.dir/build.make CMakeFiles/ch1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++11Hello.dir/build.make CMakeFiles/c++11Hello.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1.dir/build.make CMakeFiles/ch1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++11Hello.dir/build.make CMakeFiles/c++11Hello.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1.dir/build.make CMakeFiles/ch1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... c++11Hello"
+	@echo "... ch1"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
